@@ -1,0 +1,484 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	height: 100%;
+}
+
+h1 {
+	font-size: 22px;
+	color: #656565;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+.btn-success {
+	background-color: #57a900;
+	background-image: -moz-linear-gradient(top, #70d900, #57a900);
+	background-image: -ms-linear-gradient(top, #70d900, #57a900);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900),
+		to(#57a900));
+	background-image: -webkit-linear-gradient(top, #70d900, #57a900);
+	background-image: -o-linear-gradient(top, #70d900, #57a900);
+	background-image: linear-gradient(top, #70d900, #57a900);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900',
+		endColorstr='#57a900', GradientType=0);
+}
+
+.btn-success:hover,.btn-success:active,.btn-success.active,.btn-success.disabled,.btn-success[disabled]
+	{
+	background-color: #57a900;
+}
+
+.btn-success:active,.btn-success.active {
+	background-color: #57a900;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #616a87;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.copyright h3 {
+	color: #fff;
+}
+
+/* --- HOME ---*/
+.home {
+	min-height: 100%;
+	margin-bottom: 80px;
+}
+
+.home h2 {
+	margin-bottom: 30px;
+}
+
+.box1 {
+	float: left;
+	background-image: url(../images/box1.png);
+	width: 100%;
+	height: 290px;
+	width: 294px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+.box2 {
+	float: left;
+	background-image: url(../images/box2.png);
+	width: 100%;
+	height: 290px;
+	width: 294px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+.box3 {
+	float: left;
+	background-image: url(../images/box3.png);
+	height: 290px;
+	width: 294px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+.box1 h1,.box2 h1,.box3 h1 {
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px 0 20px;
+	width: 100%;
+	font-size: 20px;
+}
+
+#form-cpf,#form-cnpj {
+	margin: 50% 10% 0 10%;
+	width: 80%;
+	color: #656565;
+	text-align: center;
+}
+
+.acessar-cpf {
+	margin-left: 17px;
+	margin-top: 48px;
+	width: 260px;
+	height: 44px;
+	background-image: url("../images/btn_1.png");
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.acessar-cnpj {
+	margin-left: 17px;
+	margin-top: 48px;
+	width: 260px;
+	height: 44px;
+	background-image: url("../images/btn_2.png");
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.acessar-codigo {
+	margin-left: 17px;
+	margin-top: 48px;
+	width: 260px;
+	height: 44px;
+	background-image: url("../images/btn_3.png");
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* --- FIM HOME ---*/
+
+/* --- CADASTRO CONTRIBUINTE ---*/
+.cadastro {
+	min-height: 100%;
+	margin-bottom: 80px;
+}
+
+.cad-pessoal {
+	float: left;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+	margin-top: 30px;
+}
+
+.cad-pessoal h1 {
+	float: left;
+	background-color: #8ca063;
+	width: 100%;
+	margin-top: -20px;
+	padding: 15px 20px 15px 20px; 
+	color: #FFF;
+	font-size: 18px;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
+}
+
+.cad-endereco {
+	float: left;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+	margin-top: 50px;
+}
+
+.cad-endereco h1 {
+	float: left;
+	background-color: #9b8a74;
+	width: 100%;
+	margin-top: -20px;
+	padding: 15px 20px 15px 20px; 
+	color: #FFF;
+	font-size: 18px;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
+}
+
+.cad-envio {
+	float: left;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+	margin-top: 50px;
+}
+
+.cad-envio h1 {
+	float: left;
+	background-color: #84749b;
+	width: 100%;
+	margin-top: -20px;
+	color: #FFF;
+	font-size: 18px;
+	padding: 15px 20px 15px 20px; 
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
+}
+
+.cad-envio h3 {
+	margin-left: 8px;
+}
+
+.cad-med {
+	float: left;
+	margin: 15px 10px 10px 10px;
+	color: #656565;
+}
+
+.cad-med span {
+	float: left;
+	margin: 5px 10px 0;
+	width: 145px;
+	text-align: right;
+}
+
+#inp-cadp {
+	float: left;
+	width: 100px;
+}
+
+#inp-cad {
+	float: left;
+	width: 250px;
+}
+
+#inp-cadg {
+	float: left;
+	width: 400px;
+}
+
+.finalizar-cad {
+	float: left;
+	margin-top: 30px;
+}
+
+/*--- FIM CADASTRO---*/
+
+/*--- TELA PRIVADO ---*/
+.privado {
+	float: left;
+	background-color: #fff;
+	width: 58%;
+	height: auto;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+	margin-top: 50px;
+}
+
+.privado h1 {
+	float: left;
+	background-color: #84749b;
+	width: 100%;
+	min-height: 50px;
+	margin-top: -20px;
+	padding: 15px 20px 15px 20px; 
+	color : #FFF;
+	font-size: 18px;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
+	color: #FFF;
+}
+
+.privado h2 {
+	float: left;
+	padding-left: 20px;
+	width: 100%;
+}
+
+.privado h3 {
+	width: 100%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.log-mail {
+	width: 100%;
+	float: left;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.log-mail span {
+	float: left;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+.log-senha {
+	width: 100%;
+	float: left;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.log-senha span {
+	float: left;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+#entrar-btn {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/*--- PAGAMENTO ---*/
+
+.pagamento {
+	float: left;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+	margin-top: 50px;
+}
+
+.pagamento h1 {
+	float: left;
+	background-color: #84749b;
+	width: 100%;
+	min-height: 50px;
+	margin-top: -20px;
+	padding: 15px 20px 15px 20px; 
+	color : #FFF;
+	font-size: 18px;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
+	color: #FFF;
+}
+
+.pagamento h4 {
+	padding: 5px 0 5px 20px;
+	font-size: 14px;
+}
+
+.linha-cor {
+	background-color: #84749b;
+	padding: 5px 0 5px 20px;
+	color: #FFF;
+}
+
+.linha-cor a {
+	color: #CCC;
+	margin-left: 5px;
+}
+
+.linha-cor a:hover {
+	color: #FFF;
+	font-weight: bold;
+	
+}
+
+.linha-branca {
+	padding: 5px 0 5px 20px;
+}
+
+.linha-branca a {
+	color: #84749b;
+	margin-left: 5px;
+}
+
+.linha-branca a:hover {
+	color: #333;
+	font-weight: bold;	
+}
+
+/*--- CONSULTAS ---*/
+
+.consulta {
+	float: left;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+	margin-top: 50px;
+}
+
+.consulta h1 {
+	float: left;
+	background-color: #84749b;
+	width: 100%;
+	min-height: 50px;
+	margin-top: -20px;
+	padding: 15px 20px 15px 20px; 
+	color : #FFF;
+	font-size: 18px;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
+	color: #FFF;
+}
+
+.dados {
+	float: left;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+	margin-top: 50px;
+}
+
+.dados h1 {
+	float: left;
+	background-color: #9b8a74;
+	width: 100%;
+	min-height: 50px;
+	margin-top: -20px;
+	padding: 15px 20px 15px 20px; 
+	color : #FFF;
+	font-size: 18px;
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 0px solid #000000;
+	color: #FFF;
+}
+
+.dados2 {
+	float: left;
+}
+
+.dados2 ul {
+	width: 100%;
+	margin-left: 20px;
+}
+
+.dados2 li {
+	margin: 5px 0 5px 20px;
+}
